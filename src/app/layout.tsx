@@ -15,7 +15,7 @@ export default function RootLayout({
     <AntdRegistry>
       <body>
       <Header />
-        {children}
+      {children}
       </body>
     </AntdRegistry>
     </html>
