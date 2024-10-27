@@ -1,5 +1,3 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
 import "../styles/global.css"
 import { AntdRegistry } from '@ant-design/nextjs-registry';

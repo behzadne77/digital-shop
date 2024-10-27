@@ -1,5 +1,4 @@
 import {Image, Input} from "antd"
-import { SearchOutlined } from '@ant-design/icons';
 import Link from "next/link"
 import styles from "./header.module.css"
 
@@ -34,7 +33,7 @@ export default function HeaderMenu() {
         <section className={"container mt-6"}>
             <section className={"flex items-center justify-between"}>
                 <section className={'w-32'}>
-                    <Image src={"/Logo.png"} preview={false} loading={"lazy"} />
+                    <Image src={"/Logo.png"} preview={false} loading={"lazy"} alt={"Logo"}/>
                 </section>
                 <section className={"w-[26rem]"}>
                     <Input prefix={<i className={"isax isax-search-normal"} /> }/>
