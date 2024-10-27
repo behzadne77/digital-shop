@@ -1,0 +1,12 @@
+.menuItem {
+    @apply flex items-center gap-2;
+}
+.menuItemIcons {
+    @apply text-blue-600 text-2xl;
+}
+.menuItemText {
+    @apply text-dark-800 text-sm font-medium;
+}
+.menuItemDescription {
+    @apply text-xs text-dark-600 font-light;
+}

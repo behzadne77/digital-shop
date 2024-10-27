@@ -1,0 +1,5 @@
+@import "fonts/Poppins/style.css";
+@import url("/assets/style.css");
+body {
+    font-family: Poppins;
+}
