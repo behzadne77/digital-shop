@@ -1,7 +1,6 @@
 import {Button, Carousel, Image} from "antd";
-import {ReactElement} from "react";
 
-const HomeSlider: ReactElement = ()=> {
+export default function HomeSlider () {
     const array = ["","",""]
     return (
         <section className={"bg-blue-100 py-3"}>
@@ -45,4 +44,3 @@ const HomeSlider: ReactElement = ()=> {
         </section>
     )
 }
-export default HomeSlider;
