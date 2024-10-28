@@ -21,7 +21,7 @@ export default function HeaderMenu() {
             title: "Watches"
         },
         {
-            icon: "monitor-recoreder",
+            icon: "monitor-recorder",
             title: "TV/Audio"
         },
         {
