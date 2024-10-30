@@ -1,9 +1,9 @@
 // app/api/categories/route.ts
 
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 import prisma from '../../../../lib/prisma';
 
-export async function GET(request: NextRequest) {
+export async function GET() {
     try {
         const categories = await prisma.category.findMany({
             where: { parentId: null },
@@ -11,7 +11,7 @@ export async function GET(request: NextRequest) {
         });
 
         return NextResponse.json(categories);
-    } catch (error) {
-        return NextResponse.json({ message: 'مشکلی در دریافت دسته‌بندی‌ها پیش آمده است.' }, { status: 500 });
+    } catch (e) {
+        return NextResponse.json({ message: 'مشکلی در دریافت دسته‌بندی‌ها پیش آمده است.', e: e }, { status: 500 });
     }
 }

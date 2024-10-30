@@ -30,13 +30,13 @@ export default function Discount() {
                     <h1 className={"mt-6 font-bold text-4xl leading-normal"}>WIRELESS <br/>HEADPHONE</h1>
                     <section className={"mt-5 flex items-center gap-2"}>
                         { timeItems.map(item=> (
-                           <section className={"w-14 h-14 bg-white rounded-full text-center"}>
+                           <section key={item.title} className={"w-14 h-14 bg-white rounded-full text-center"}>
                                <h5 className={"font-bold text-base mt-1"}>{ item.value }</h5>
                                <h6 className={"text-xs mt-1"}>{ item.title }</h6>
                            </section>
                         ))}
                     </section>
-                    <Button type={"primary"} className={"mt-8 w-44 h-10"}>
+                    <Button type={"primary"} className={"mt-8 w-44 h-10"} key={"discount-buy-button"}>
                         Buy Now
                         <i className={"isax isax-arrow-right-1"} />
                     </Button>

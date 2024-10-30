@@ -1,7 +1,5 @@
 "use client"
 import {useEffect, useState} from "react";
-import {meta} from "eslint-plugin-react/lib/rules/jsx-props-no-spread-multi";
-import category = meta.docs.category;
 import {Image} from "antd";
 
 type Category = {
