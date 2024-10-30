@@ -11,7 +11,7 @@ export default function HomeSlider () {
                             <section className={"flex items-center gap-6"}>
                                 <section>
                                     <h1 className={"font-bold text-5xl leading-loose text-dark-800"}>WIRELESS HEADPHONE</h1>
-                                    <Button className={"text-lg mt-12 font-bold flex items-center gap-2 h-12 w-44"}>
+                                    <Button className={"text-lg mt-12 font-bold flex items-center gap-2 h-12 w-44 shadow-[0px_0px_14px_0px_#00497E24]"}>
                                         Buy Now
                                         <i className={"isax isax-arrow-right-1 mt-1.5"}/>
                                     </Button>

@@ -19,12 +19,16 @@ const config: Config = {
         foreground: "var(--foreground)",
         "blue": {
           100: "#EAF1F7",
+          150: "#F1F6FB",
           500: "#2C62B3",
           600: "#2358A7"
         },
         "dark": {
           600: "#727272",
           800: "#051324"
+        },
+        "red": {
+          600: "#FF006B",
         }
       },
     },
